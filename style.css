@@ -1,53 +1,162 @@
 
-.relative-box1{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    height:300px;
-    width:75%;
-    background-color: #777;
-}
+/* general text styling and formatting */
 
-.relative-box2{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    height:300px;
-    width:75%;
-    background-color: 777;
-}
-
-.absolute-box3 {
-    position: relative;
-    height:100px;
-    width:100px;
-    bottom: 0;
-    right: 0;
-    z-index: 2;
-    background-color: lightgrey;
+h1{
+    color: #777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
     
 }
 
-#h1 {
-    Font: bold;
-    margin: auto;
-   
+p{
+    color: #777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+p1{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    line-height: 4;
+    
+}
+p2{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    line-height: 3;
+    
+}
+body {
+    color: #777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 
-.textbody1 {
+/* boxes */
+
+.headerbox {
     margin: auto;
-    background-color:lightgrey;
-    width: 75%;
+    background-color: #ebebeb;
+    width: 100%;
     padding: 30px;
-    text-align: center;
-    text color
+    text-align: center;    
 }
-.textbody2 {
-    margin: auto;
-    background-color:lightgrey;
-    width: 960px;
-    padding: 30px;
-    text-align: center;
+.navbox2 {
+    margin: 0px;
+    background-color:#777;
+    width: 100%;
+    padding: 5px;
+    text-align: center;    
 }
     
+.navbox{
+    margin: auto;
+    background-color: #ebebeb;
+    width: 100%;
+    padding: 30px;
+    text-align: center;    
+}
+    
+
+
+#boxsection{
+    margin-left:auto;
+    float: left;
+    background-color: #ebebeb;
+    width: 55.5%; 
+    padding: 10px;
+    text-align: center; 
+    
+}
+/* boxes within boxsection */
+
+.ArticleContainer{
+    margin: auto;
+    background-color:#777;
+    color: #ebebeb;
+    width: 90%;
+    padding: 25px;
+    text-align: center; 
+}
+
+
+#ArticleContainer0{
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+    text-align: center; 
+}
+
+#ArticleContainer1{
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+    text-align: center; 
+}
+
+#ArticleContainer2{
+    margin: auto;
+    background-color: #ebebeb;
+    width: 515px;
+    padding: 1px;
+    height: 50px;
+    text-align: center; 
+}
+
+
+#ArticleContainer3{
+    margin: auto;
+    background-color: #ebebeb;
+    width: 515px;
+    padding: 1px;
+    height: 50px;
+    text-align: center; 
+}
+#ArticleContainer4{
+    margin: auto;  
+    width: 385px;
+    padding: 1px;
+    height: 10px;
+    text-align: center; 
+}
+
+
+/* end box within box section */
+
+#boxaside{
+    margin-right: 1px;
+    Float: right;
+    background-color:#ebebeb;
+    width: 36.5%;
+    padding: 20px;
+    text-align: center; 
+    height: 260px;
+}
+
+/* wrappers and (probably) erroneously implemented clearfix */
+
+.clearfix {
+    overflow: auto;
+}
+
+#wrapperall {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+#wrap{
+    margin: auto;
+    width: 106.25%;
+    height: 310px;
+    text-align: center; 
+}
+
+
+
+/* Other notes
+- Had to size boxes with percentages - couldnt get the pixel counts listed in the Assignement Dossier.  Used a wrap with a 960px width and scaled boxes to 100% instead. */
