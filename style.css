@@ -1,0 +1,53 @@
+
+.relative-box1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    width:75%;
+    background-color: #777;
+}
+
+.relative-box2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    width:75%;
+    background-color: 777;
+}
+
+.absolute-box3 {
+    position: relative;
+    height:100px;
+    width:100px;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background-color: lightgrey;
+    
+}
+
+#h1 {
+    Font: bold;
+    margin: auto;
+   
+}
+
+
+.textbody1 {
+    margin: auto;
+    background-color:lightgrey;
+    width: 75%;
+    padding: 30px;
+    text-align: center;
+    text color
+}
+.textbody2 {
+    margin: auto;
+    background-color:lightgrey;
+    width: 960px;
+    padding: 30px;
+    text-align: center;
+}
+    
